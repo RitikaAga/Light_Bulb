@@ -4,7 +4,6 @@ body {
 .a {
   width: 400px;
   height: 500px;
-  background-image: linear-gradient(red, gree, blue);
   margin: 50px auto;
   position: relative;
 }
@@ -25,8 +24,8 @@ body {
   height: 120px;
   transform: translate(-125px, 279px);
   border-radius: 0 0 172px 165px;
-  background-color: rgb(219 205 37);
-  box-shadow: 0px 10px 100px 2px #e2dbd3;
+  background-color: rgb(197, 184, 149);
+  transition: all 2s ease-in-out 20ms;
 }
 .ch {
   width: 47px;
@@ -36,4 +35,8 @@ body {
   border-radius: 4px;
   transform: translate(102px, -267px);
   background-color: rgb(14, 14, 15);
+}
+.c:hover {
+  box-shadow: 0px 10px 1000px 2px #e2dbd3;
+  background-color: rgb(219 205 37);
 }
